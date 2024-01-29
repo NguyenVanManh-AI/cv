@@ -9,14 +9,17 @@
     }
 
     #additional ul li {
-        width: 30%;
+        /* width: 30%; */
     }
     #additional {
-        font-size: 14px;
+        /* font-size: 14px; */
     }
 
-    #contact-detail a {
-        font-size: 12px;
+    #contact-detail li p:nth-child(2) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 10px;
     }
 
     #education > div > p:nth-child(1) {
@@ -27,6 +30,13 @@
     }
     #education > div > p:nth-child(1) img {
         max-width: 66%;
+    }
+
+    #additional ul li > div {
+        height: 75%;
+    }
+    #additional ul p {
+        height: 25%;
     }
 }
 
@@ -51,16 +61,27 @@
         padding: 0px 100px;
     }
 
-    #contact-detail a {
-        font-size: 12px;
+    #contact-detail li p:nth-child(2) {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 10px;
     }
 
     #contact-detail {
         justify-content: center;
     }
     #contact-detail li {
-        width: 33%;
+        margin: 0px 6px;
+        margin-bottom: 6px;
+        width: 30%;
     }
+
+    #contact-detail li:hover {
+        width: 36%;
+        transition: all 0.5s ease;
+    }
+    
 
     #education > div > p:nth-child(1) {
         width: 8%;
@@ -121,6 +142,7 @@
         text-overflow: ellipsis;
         margin-bottom: 10px;
     }
+
     #contact-detail a {
         font-size: 12px;
     }
@@ -129,8 +151,16 @@
         justify-content: center;
     }
     #contact-detail li {
-        width: 33%;
+        margin: 0px 6px;
+        margin-bottom: 6px;
+        width: 30%;
     }
+
+    #contact-detail li:hover {
+        width: 36%;
+        transition: all 0.5s ease;
+    }
+    
 
     #objective p:nth-child(2) {
         font-size: 17px;
@@ -177,9 +207,7 @@
         top: 30px;
         font-size: 12px;
     }
-    /* * {
-        display: none;
-    } */
+
 }
 
 /* Tablets */
@@ -239,7 +267,14 @@
         justify-content: center;
     }
     #contact-detail li {
-        width: 33%;
+        margin: 0px 6px;
+        margin-bottom: 6px;
+        width: 30%;
+    }
+
+    #contact-detail li:hover {
+        width: 36%;
+        transition: all 0.5s ease;
     }
 
     #objective p:nth-child(2) {
@@ -319,9 +354,7 @@
     #infor-detail li p:nth-child(2) {
         width: 4%;
     }
-    /* * {
-        display: none;
-    } */
+
 }
 
 /* Mobile Phones */
@@ -393,7 +426,13 @@
         justify-content: center;
     }
     #contact-detail li {
-        width: 33%;
+        margin: 0px 6px;
+        margin-bottom: 6px;
+        width: 26%;
+    }
+    #contact-detail li:hover {
+        width: 36%;
+        transition: all 0.5s ease;
     }
 
     #objective p:nth-child(2) {
